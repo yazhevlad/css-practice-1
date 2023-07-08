@@ -1,7 +1,40 @@
-html {
-  max-width: 720px;
+.card > p {
+  color: green;
+  direction: ltr;
+  -webkit-text-fill-color: red;
+  -webkit-text-stroke: 0.5px blue;
 }
 
-body {
-  background: #fff;
+.card > h1 {
+writing-mode: vertical-rl;
+text-transform: uppercase;
+tab-size: 100px;
+letter-spacing: 10px;
+text-decoration: underline solid green;
+}
+
+.card > p {
+  text-align: center;
+}
+
+* {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-display: swap;
+}
+
+span {
+  font-size: large;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.test {
+  display: block;
+  margin: auto;
+  background: rgb(196, 195, 195);
+  min-width: min-content;
+  max-width: 100px;
+  height: auto;
+  min-height: max-content;
+  max-height: max-content;
 }

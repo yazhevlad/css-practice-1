@@ -1,0 +1,242 @@
+/* :root {
+  background: purple;
+}
+
+html {
+  max-width: 720px;
+  background: blue;
+}
+
+body {
+  background: #fff;
+}
+
+* {
+  color: red;
+}
+
+.box {
+  background: grey;
+}
+
+#user {
+  color: aqua;
+}
+
+h1, 
+h2#user, 
+button {
+  color: green;
+}
+
+div > p {
+  color: palegoldenrod;
+}
+
+footer em {
+  color: aquamarine;
+}
+
+h1+h2 {
+  margin: 100px;
+} */
+
+
+/* ////////////////////////////////////////// */
+
+
+/* .card-dark {
+  background: #ededed;
+}
+
+.item {
+  color: green;
+}
+
+.item:first-child {
+  color: blue;
+}
+
+.item:last-child {
+  background: lightsalmon;
+}
+
+.item:only-child {
+  color: blueviolet;
+}
+
+p:first-of-type {
+  background: red;
+}
+
+p:last-of-type {
+  background: rgb(235, 59, 171);
+}
+
+b:only-of-type {
+  color: coral;
+}
+
+li:nth-child(4) {
+  color: rgb(89, 221, 77);
+}
+
+/* ↑↑ even- парні елементи
+odd - непарні елементи
+(3n+1) - формули, n - як змінна
+*/
+
+/* li:nth-last-child(1) {
+  color: red;
+}
+
+li:nth-of-type(2n) {
+  color: rgb(190, 10, 139);
+}
+
+li:nth-last-of-type(3n) {
+  color: rgb(150, 45, 52);
+}
+
+strong:not(.big) {
+  background: chartreuse;
+}
+
+p:empty {
+  height: 10px;
+  background: yellow;
+} */
+
+/* .input-dark[required] {
+  background: red;
+}
+
+.input-dark[type="number"] {
+  background: green;
+}
+
+.small-img[alt~="small"] {
+  height: 300px;
+}
+
+button[class|="btn"] {
+  background: rgb(236, 213, 213);
+}
+
+a[class^="btn"] {
+  background: red;
+}
+/* ↑↑ Шукає з початку */
+
+/* a[class*="btn"] {
+  background: rgb(50, 179, 48);
+}
+
+a[class$="ary"] {
+  background: rgb(21, 50, 179);
+} */
+
+/* ↑↑ Шукає в кінці */
+
+/* .btn::first-letter {
+  color: red;
+}
+
+.big-text::first-line {
+  color: red;
+}
+
+.input-dark::placeholder {
+  color: green;
+  background: rgb(0, 0, 255);
+}
+
+.big-text::before {
+content: "$$$ ";
+}
+
+.big-text::after {
+  content: " @@@";
+  } */
+  
+/* ////////////////////////////////////////// */
+
+#test:target {
+  color: red;
+}
+
+.link:link {
+  color: red;
+}
+
+.link:hover {
+  color: lightgreen;
+}
+
+.link:active {
+  color: purple;
+}
+
+input {
+  background-color: gray;
+}
+
+input:focus {
+  background-color: red;
+}
+
+.card:focus-within {
+  background: red;
+}
+
+.card:lang(en) > span:after {
+  content: ' (en)';
+}
+
+button {
+  background: greenyellow;
+}
+
+button:enabled {
+  background: green;
+}
+
+button:disabled {
+  background: yellow;
+}
+
+.inp:read-write {
+  background-color: blue;
+}
+
+.inp:read-only {
+  background-color: blue;
+}
+
+input[type="checkbox"]:checked ~ span {
+  background: red;
+}
+
+.valid:valid {
+  background: yellow;
+}
+
+.valid:invalid {
+  background: brown;
+}
+
+.valid:optional {
+  background: green;
+}
+
+.number:out-of-range {
+  background: red;
+}
+
+.number:in-range {
+  background: green;
+}
+
+input:placeholder-shown ~ span {
+  background: pink;
+}
