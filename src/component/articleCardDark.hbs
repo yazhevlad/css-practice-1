@@ -1,0 +1,14 @@
+{{#each data}}
+<div class="art_card" id="{{id}}">
+    <img src="{{photo}}" alt="{{name}}" class="art_img">
+    {{#if isNew}}
+    <button class="badge">NEW</button>
+    {{else}}
+    {{/if}}
+    <strong class="art_name">{{name}}</strong>
+    <p class="art_description">{{description}}</p>
+    <div>
+        <a class="button art_button">Read All</a>
+    </div>
+</div>
+{{/each}}
